@@ -1,13 +1,15 @@
 <template>
-  <l-map style="height: 500px" :zoom="zoom" :center="center">
+  <l-map @ready="onReady" style="height: 500px" :zoom="zoom" :center="center">
     <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
     <l-marker :lat-lng="markerLatLng"></l-marker>
+    <l-geo-json :geojson="geojson"></l-geo-json>
   </l-map>
 </template>
 
 <script>
-import {LMap, LTileLayer, LMarker} from 'vue2-leaflet';
+import {LMap, LTileLayer, LMarker, LGeoJson} from 'vue2-leaflet';
 import { Icon } from 'leaflet';
+import HeiligeStiege from '../assets/heilige-stiege.json'
 
 delete Icon.Default.prototype._getIconUrl;
 Icon.Default.mergeOptions({
@@ -22,16 +24,27 @@ export default {
     LMap,
     LTileLayer,
     LMarker,
+    LGeoJson
   },
   data () {
     return {
       url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       attribution:
         '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-      zoom: 15,
-      center: [51.505, -0.159],
+      zoom: 17,
+      center: [50.909000, 14.237500],
       markerLatLng: [51.504, -0.159],
+
+      map: null
     };
+  },
+  async created () {
+    this.geojson = HeiligeStiege
+  },
+  methods: {
+    onReady(mapObject) {
+      this.map = mapObject
+    }
   },
 }</script>
 

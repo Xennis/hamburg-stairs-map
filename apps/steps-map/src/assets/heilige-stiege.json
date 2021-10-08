@@ -1,0 +1,307 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "way/27956937",
+            "properties": {
+                "bicycle": "no",
+                "highway": "steps",
+                "incline": "up",
+                "name": "Heilige Stiege",
+                "wikipedia": "de:Heilige Stiege (Sächsische Schweiz)",
+                "id": "way/27956937"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.2382852,
+                        50.9081006
+                    ],
+                    [
+                        14.238186,
+                        50.9081888
+                    ],
+                    [
+                        14.2381922,
+                        50.9082707
+                    ],
+                    [
+                        14.2381829,
+                        50.9083435
+                    ],
+                    [
+                        14.2381707,
+                        50.9083925
+                    ],
+                    [
+                        14.238101,
+                        50.9084635
+                    ],
+                    [
+                        14.238105,
+                        50.9085196
+                    ],
+                    [
+                        14.2380759,
+                        50.9085734
+                    ],
+                    [
+                        14.2380719,
+                        50.9087055
+                    ],
+                    [
+                        14.2380772,
+                        50.9087724
+                    ],
+                    [
+                        14.2380949,
+                        50.9088775
+                    ],
+                    [
+                        14.238043,
+                        50.9089431
+                    ],
+                    [
+                        14.2377028,
+                        50.9089286
+                    ],
+                    [
+                        14.237608,
+                        50.908886
+                    ],
+                    [
+                        14.2373817,
+                        50.9088281
+                    ],
+                    [
+                        14.2373724,
+                        50.9088422
+                    ],
+                    [
+                        14.2372637,
+                        50.9088217
+                    ],
+                    [
+                        14.2372711,
+                        50.9088135
+                    ],
+                    [
+                        14.2368877,
+                        50.908697
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/227231863",
+            "properties": {
+                "bicycle": "no",
+                "description": "Flache Stufen, 885 insgesamt für die Heilige Stiege (+die 103 vom Zurückesteig)",
+                "highway": "steps",
+                "incline": "up",
+                "name": "Heilige Stiege",
+                "sac_scale": "hiking",
+                "wikipedia": "de:Heilige Stiege (Sächsische Schweiz)",
+                "id": "way/227231863"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.2372641,
+                        50.909918
+                    ],
+                    [
+                        14.2374197,
+                        50.9100634
+                    ],
+                    [
+                        14.2376471,
+                        50.9101218
+                    ],
+                    [
+                        14.2377224,
+                        50.9101906
+                    ],
+                    [
+                        14.2376256,
+                        50.9102664
+                    ],
+                    [
+                        14.2375699,
+                        50.9103509
+                    ],
+                    [
+                        14.2375003,
+                        50.9104516
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/227231879",
+            "properties": {
+                "bicycle": "no",
+                "highway": "steps",
+                "name": "Zurückesteig",
+                "sac_scale": "mountain_hiking",
+                "trail_visibility": "good",
+                "id": "way/227231879"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.2350447,
+                        50.9094589
+                    ],
+                    [
+                        14.235313,
+                        50.9096126
+                    ],
+                    [
+                        14.2353709,
+                        50.9095865
+                    ],
+                    [
+                        14.2354352,
+                        50.9095932
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/227231880",
+            "properties": {
+                "bicycle": "no",
+                "highway": "steps",
+                "name": "Zurückesteig",
+                "sac_scale": "mountain_hiking",
+                "surface": "ground",
+                "trail_visibility": "good",
+                "id": "way/227231880"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.2364108,
+                        50.909781
+                    ],
+                    [
+                        14.2361599,
+                        50.9097255
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/227231882",
+            "properties": {
+                "bicycle": "no",
+                "highway": "steps",
+                "incline": "up",
+                "name": "Zurückesteig",
+                "sac_scale": "mountain_hiking",
+                "id": "way/227231882"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.2345111,
+                        50.9085308
+                    ],
+                    [
+                        14.2346181,
+                        50.9086056
+                    ],
+                    [
+                        14.2347858,
+                        50.9086559
+                    ],
+                    [
+                        14.2348819,
+                        50.9086838
+                    ],
+                    [
+                        14.234908,
+                        50.90871
+                    ],
+                    [
+                        14.2348537,
+                        50.9087427
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/369276443",
+            "properties": {
+                "bicycle": "no",
+                "highway": "steps",
+                "name": "Zurückesteig",
+                "sac_scale": "hiking",
+                "surface": "ground",
+                "trail_visibility": "good",
+                "id": "way/369276443"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.2368668,
+                        50.9099886
+                    ],
+                    [
+                        14.2368541,
+                        50.9099849
+                    ],
+                    [
+                        14.2368325,
+                        50.9099909
+                    ],
+                    [
+                        14.2367033,
+                        50.9099074
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/984824725",
+            "properties": {
+                "bicycle": "no",
+                "handrail:left": "yes",
+                "highway": "steps",
+                "incline": "up",
+                "name": "Zurückesteig",
+                "sac_scale": "mountain_hiking",
+                "step_count": "6",
+                "surface": "metal",
+                "id": "way/984824725"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.2344788,
+                        50.908793
+                    ],
+                    [
+                        14.2344955,
+                        50.9087682
+                    ]
+                ]
+            }
+        }
+    ]
+}
