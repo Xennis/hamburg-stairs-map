@@ -2,7 +2,7 @@
   <l-map @ready="onReady" style="height: 500px" :zoom="zoom" :center="center">
     <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
     <l-marker :lat-lng="markerLatLng"></l-marker>
-    <l-geo-json :geojson="geojson"></l-geo-json>
+    <l-geo-json :geojson="geojson" :options="geojsonOptions"></l-geo-json>
   </l-map>
 </template>
 
@@ -35,7 +35,21 @@ export default {
       center: [50.909000, 14.237500],
       markerLatLng: [51.504, -0.159],
 
-      map: null
+      map: null,
+      geojsonOptions: {
+        onEachFeature: function onEachFeature(feature, layer) {
+          console.log(feature);
+          layer.bindPopup("<h3>" + feature.properties.name + "</h3>" + "<pre>"+JSON.stringify(feature.properties, null, " ")+"</pre>");
+        },
+        style: function(feature) {
+          if (feature.properties.wikipedia) {
+            return {
+              weight: 6,
+              color: '#03fcb1'
+            }
+          }
+        },
+      }
     };
   },
   async created () {
