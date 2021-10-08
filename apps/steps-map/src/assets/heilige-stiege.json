@@ -1,307 +1,5141 @@
 {
     "type": "FeatureCollection",
+    "generator": "overpass-ide",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+    "timestamp": "2021-10-08T17:06:58Z",
     "features": [
-        {
-            "type": "Feature",
-            "id": "way/27956937",
-            "properties": {
-                "bicycle": "no",
-                "highway": "steps",
-                "incline": "up",
-                "name": "Heilige Stiege",
-                "wikipedia": "de:Heilige Stiege (Sächsische Schweiz)",
-                "id": "way/27956937"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        14.2382852,
-                        50.9081006
-                    ],
-                    [
-                        14.238186,
-                        50.9081888
-                    ],
-                    [
-                        14.2381922,
-                        50.9082707
-                    ],
-                    [
-                        14.2381829,
-                        50.9083435
-                    ],
-                    [
-                        14.2381707,
-                        50.9083925
-                    ],
-                    [
-                        14.238101,
-                        50.9084635
-                    ],
-                    [
-                        14.238105,
-                        50.9085196
-                    ],
-                    [
-                        14.2380759,
-                        50.9085734
-                    ],
-                    [
-                        14.2380719,
-                        50.9087055
-                    ],
-                    [
-                        14.2380772,
-                        50.9087724
-                    ],
-                    [
-                        14.2380949,
-                        50.9088775
-                    ],
-                    [
-                        14.238043,
-                        50.9089431
-                    ],
-                    [
-                        14.2377028,
-                        50.9089286
-                    ],
-                    [
-                        14.237608,
-                        50.908886
-                    ],
-                    [
-                        14.2373817,
-                        50.9088281
-                    ],
-                    [
-                        14.2373724,
-                        50.9088422
-                    ],
-                    [
-                        14.2372637,
-                        50.9088217
-                    ],
-                    [
-                        14.2372711,
-                        50.9088135
-                    ],
-                    [
-                        14.2368877,
-                        50.908697
-                    ]
-                ]
-            }
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/4725823",
+          "bicycle": "no",
+          "highway": "steps",
+          "lit": "no",
+          "name": "Himmelsleiter",
+          "note": "Nur Aufstieg",
+          "oneway": "yes",
+          "step_count": "96",
+          "surface": "metal"
         },
-        {
-            "type": "Feature",
-            "id": "way/227231863",
-            "properties": {
-                "bicycle": "no",
-                "description": "Flache Stufen, 885 insgesamt für die Heilige Stiege (+die 103 vom Zurückesteig)",
-                "highway": "steps",
-                "incline": "up",
-                "name": "Heilige Stiege",
-                "sac_scale": "hiking",
-                "wikipedia": "de:Heilige Stiege (Sächsische Schweiz)",
-                "id": "way/227231863"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        14.2372641,
-                        50.909918
-                    ],
-                    [
-                        14.2374197,
-                        50.9100634
-                    ],
-                    [
-                        14.2376471,
-                        50.9101218
-                    ],
-                    [
-                        14.2377224,
-                        50.9101906
-                    ],
-                    [
-                        14.2376256,
-                        50.9102664
-                    ],
-                    [
-                        14.2375699,
-                        50.9103509
-                    ],
-                    [
-                        14.2375003,
-                        50.9104516
-                    ]
-                ]
-            }
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2574784,
+              50.9258048
+            ],
+            [
+              14.2570761,
+              50.9257812
+            ]
+          ]
         },
-        {
-            "type": "Feature",
-            "id": "way/227231879",
-            "properties": {
-                "bicycle": "no",
-                "highway": "steps",
-                "name": "Zurückesteig",
-                "sac_scale": "mountain_hiking",
-                "trail_visibility": "good",
-                "id": "way/227231879"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        14.2350447,
-                        50.9094589
-                    ],
-                    [
-                        14.235313,
-                        50.9096126
-                    ],
-                    [
-                        14.2353709,
-                        50.9095865
-                    ],
-                    [
-                        14.2354352,
-                        50.9095932
-                    ]
-                ]
-            }
+        "id": "way/4725823"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/23245540",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Affensteinweg"
         },
-        {
-            "type": "Feature",
-            "id": "way/227231880",
-            "properties": {
-                "bicycle": "no",
-                "highway": "steps",
-                "name": "Zurückesteig",
-                "sac_scale": "mountain_hiking",
-                "surface": "ground",
-                "trail_visibility": "good",
-                "id": "way/227231880"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        14.2364108,
-                        50.909781
-                    ],
-                    [
-                        14.2361599,
-                        50.9097255
-                    ]
-                ]
-            }
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2587185,
+              50.9129143
+            ],
+            [
+              14.2585441,
+              50.9130598
+            ],
+            [
+              14.2583905,
+              50.912929
+            ],
+            [
+              14.2583019,
+              50.9129059
+            ]
+          ]
         },
-        {
-            "type": "Feature",
-            "id": "way/227231882",
-            "properties": {
-                "bicycle": "no",
-                "highway": "steps",
-                "incline": "up",
-                "name": "Zurückesteig",
-                "sac_scale": "mountain_hiking",
-                "id": "way/227231882"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        14.2345111,
-                        50.9085308
-                    ],
-                    [
-                        14.2346181,
-                        50.9086056
-                    ],
-                    [
-                        14.2347858,
-                        50.9086559
-                    ],
-                    [
-                        14.2348819,
-                        50.9086838
-                    ],
-                    [
-                        14.234908,
-                        50.90871
-                    ],
-                    [
-                        14.2348537,
-                        50.9087427
-                    ]
-                ]
-            }
+        "id": "way/23245540"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/23249832",
+          "bicycle": "no",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "lit": "no",
+          "surface": "wood"
         },
-        {
-            "type": "Feature",
-            "id": "way/369276443",
-            "properties": {
-                "bicycle": "no",
-                "highway": "steps",
-                "name": "Zurückesteig",
-                "sac_scale": "hiking",
-                "surface": "ground",
-                "trail_visibility": "good",
-                "id": "way/369276443"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        14.2368668,
-                        50.9099886
-                    ],
-                    [
-                        14.2368541,
-                        50.9099849
-                    ],
-                    [
-                        14.2368325,
-                        50.9099909
-                    ],
-                    [
-                        14.2367033,
-                        50.9099074
-                    ]
-                ]
-            }
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2510305,
+              50.9273551
+            ],
+            [
+              14.2508864,
+              50.9272795
+            ]
+          ]
         },
-        {
-            "type": "Feature",
-            "id": "way/984824725",
-            "properties": {
-                "bicycle": "no",
-                "handrail:left": "yes",
-                "highway": "steps",
-                "incline": "up",
-                "name": "Zurückesteig",
-                "sac_scale": "mountain_hiking",
-                "step_count": "6",
-                "surface": "metal",
-                "id": "way/984824725"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        14.2344788,
-                        50.908793
-                    ],
-                    [
-                        14.2344955,
-                        50.9087682
-                    ]
-                ]
-            }
-        }
+        "id": "way/23249832"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/23370093",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Gratweg"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2088915,
+              50.9109676
+            ],
+            [
+              14.2088635,
+              50.911024
+            ],
+            [
+              14.2088341,
+              50.9110469
+            ],
+            [
+              14.208746,
+              50.9111165
+            ],
+            [
+              14.2086756,
+              50.9111537
+            ],
+            [
+              14.2085643,
+              50.9111968
+            ]
+          ]
+        },
+        "id": "way/23370093"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/27956933",
+          "bicycle": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2392865,
+              50.9072525
+            ],
+            [
+              14.2391417,
+              50.9074724
+            ]
+          ]
+        },
+        "id": "way/27956933"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/27956936",
+          "bicycle": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2389378,
+              50.9077904
+            ],
+            [
+              14.2386053,
+              50.907858
+            ]
+          ]
+        },
+        "id": "way/27956936"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/27956937",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Heilige Stiege",
+          "wikipedia": "de:Heilige Stiege (Sächsische Schweiz)"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2382852,
+              50.9081006
+            ],
+            [
+              14.238186,
+              50.9081888
+            ],
+            [
+              14.2381922,
+              50.9082707
+            ],
+            [
+              14.2381829,
+              50.9083435
+            ],
+            [
+              14.2381707,
+              50.9083925
+            ],
+            [
+              14.238101,
+              50.9084635
+            ],
+            [
+              14.238105,
+              50.9085196
+            ],
+            [
+              14.2380759,
+              50.9085734
+            ],
+            [
+              14.2380719,
+              50.9087055
+            ],
+            [
+              14.2380772,
+              50.9087724
+            ],
+            [
+              14.2380949,
+              50.9088775
+            ],
+            [
+              14.238043,
+              50.9089431
+            ],
+            [
+              14.2377028,
+              50.9089286
+            ],
+            [
+              14.237608,
+              50.908886
+            ],
+            [
+              14.2373817,
+              50.9088281
+            ],
+            [
+              14.2373724,
+              50.9088422
+            ],
+            [
+              14.2372637,
+              50.9088217
+            ],
+            [
+              14.2372711,
+              50.9088135
+            ],
+            [
+              14.2368877,
+              50.908697
+            ]
+          ]
+        },
+        "id": "way/27956937"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/27958471",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "kleine Domstiege",
+          "sac_scale": "mountain_hiking",
+          "width": "1"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2278477,
+              50.910864
+            ],
+            [
+              14.2280671,
+              50.9108503
+            ],
+            [
+              14.2282109,
+              50.9108168
+            ],
+            [
+              14.2283211,
+              50.9108066
+            ],
+            [
+              14.2283498,
+              50.9108381
+            ],
+            [
+              14.2282986,
+              50.9109201
+            ],
+            [
+              14.2282994,
+              50.9110092
+            ],
+            [
+              14.2283335,
+              50.9110995
+            ],
+            [
+              14.2284204,
+              50.9111953
+            ],
+            [
+              14.2285137,
+              50.9112504
+            ]
+          ]
+        },
+        "id": "way/27958471"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/27958475",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "kleine Domstiege",
+          "sac_scale": "mountain_hiking",
+          "width": "1"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2289625,
+              50.9114282
+            ],
+            [
+              14.2291225,
+              50.9114203
+            ]
+          ]
+        },
+        "id": "way/27958475"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/27958477",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "kleine Domstiege",
+          "sac_scale": "mountain_hiking",
+          "width": "1"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2295553,
+              50.9114033
+            ],
+            [
+              14.2297127,
+              50.9114493
+            ],
+            [
+              14.2298587,
+              50.9115409
+            ]
+          ]
+        },
+        "id": "way/27958477"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/27958486",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Rotkehlchenstiege",
+          "note": "Markierung \"Bergpfad\"",
+          "oneway": "no",
+          "path": "mountain_path",
+          "sac_scale": "demanding_mountain_hiking",
+          "width": "1",
+          "wikipedia": "de:Schrammsteine#Rotkehlchenstiege"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2338912,
+              50.9050847
+            ],
+            [
+              14.2339082,
+              50.9052806
+            ],
+            [
+              14.234159,
+              50.9053991
+            ],
+            [
+              14.2342991,
+              50.9055284
+            ],
+            [
+              14.2343315,
+              50.905697
+            ],
+            [
+              14.2343162,
+              50.9058246
+            ],
+            [
+              14.2343373,
+              50.9058989
+            ],
+            [
+              14.2344134,
+              50.9059211
+            ],
+            [
+              14.2344123,
+              50.9060024
+            ],
+            [
+              14.2344512,
+              50.906042
+            ]
+          ]
+        },
+        "id": "way/27958486"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/28464248",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.235859,
+              50.912712
+            ],
+            [
+              14.2355833,
+              50.9128066
+            ],
+            [
+              14.2354801,
+              50.9128061
+            ],
+            [
+              14.235356,
+              50.9127937
+            ],
+            [
+              14.2352039,
+              50.9128174
+            ],
+            [
+              14.2350629,
+              50.912886
+            ],
+            [
+              14.2348989,
+              50.9129253
+            ]
+          ]
+        },
+        "id": "way/28464248"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/28858036",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "down",
+          "name": "Wilde Hölle",
+          "rungs": "yes",
+          "sac_scale": "demanding_mountain_hiking",
+          "tourism": "attraction",
+          "url": "http://www.wanderpfade.de/?wp=662"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2319133,
+              50.91491
+            ],
+            [
+              14.2316808,
+              50.9150521
+            ],
+            [
+              14.2315202,
+              50.9151232
+            ],
+            [
+              14.2313565,
+              50.9153252
+            ],
+            [
+              14.2311953,
+              50.9153054
+            ],
+            [
+              14.2311128,
+              50.9153611
+            ],
+            [
+              14.2311793,
+              50.9154396
+            ],
+            [
+              14.2311581,
+              50.9155185
+            ],
+            [
+              14.2310901,
+              50.9155946
+            ]
+          ]
+        },
+        "id": "way/28858036"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/29721415",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Aschersteig"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2283746,
+              50.8860108
+            ],
+            [
+              14.2284828,
+              50.886033
+            ],
+            [
+              14.2286449,
+              50.8860779
+            ],
+            [
+              14.2287231,
+              50.8862113
+            ],
+            [
+              14.2288267,
+              50.8862405
+            ],
+            [
+              14.2288633,
+              50.8865066
+            ],
+            [
+              14.2288044,
+              50.8867514
+            ],
+            [
+              14.2289612,
+              50.8870545
+            ],
+            [
+              14.2294121,
+              50.8873314
+            ],
+            [
+              14.2295438,
+              50.8875065
+            ],
+            [
+              14.229579,
+              50.8876916
+            ],
+            [
+              14.2297993,
+              50.8876163
+            ],
+            [
+              14.2301328,
+              50.8876637
+            ],
+            [
+              14.2302304,
+              50.8877869
+            ],
+            [
+              14.2303708,
+              50.8877609
+            ],
+            [
+              14.2304481,
+              50.8877996
+            ],
+            [
+              14.2303991,
+              50.8879043
+            ],
+            [
+              14.2302953,
+              50.8880745
+            ]
+          ]
+        },
+        "id": "way/29721415"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/30081149",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Lattengrund",
+          "sac_scale": "hiking",
+          "trail_visibility": "excellent"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.194436,
+              50.9143997
+            ],
+            [
+              14.1942903,
+              50.9143792
+            ],
+            [
+              14.1938627,
+              50.9142416
+            ],
+            [
+              14.193442,
+              50.9140583
+            ],
+            [
+              14.1932692,
+              50.9139986
+            ],
+            [
+              14.1931201,
+              50.9140464
+            ],
+            [
+              14.192636,
+              50.9141671
+            ],
+            [
+              14.1922243,
+              50.9143169
+            ],
+            [
+              14.1918139,
+              50.9143575
+            ]
+          ]
+        },
+        "id": "way/30081149"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/30081152",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Lattengrund",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.1946463,
+              50.912729
+            ],
+            [
+              14.1944934,
+              50.9129421
+            ]
+          ]
+        },
+        "id": "way/30081152"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/30081718",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Schrammsteinweg",
+          "path": "climbing_access"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2002833,
+              50.9111365
+            ],
+            [
+              14.2002621,
+              50.9111248
+            ]
+          ]
+        },
+        "id": "way/30081718"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/30081724",
+          "bicycle": "no",
+          "foot:backward": "no",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Wildschützensteig",
+          "oneway": "yes"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2072883,
+              50.9110208
+            ],
+            [
+              14.2073156,
+              50.9110769
+            ],
+            [
+              14.2073299,
+              50.9111063
+            ],
+            [
+              14.2073549,
+              50.9112308
+            ],
+            [
+              14.2073587,
+              50.9112453
+            ],
+            [
+              14.2073166,
+              50.9112426
+            ],
+            [
+              14.2072724,
+              50.9114133
+            ],
+            [
+              14.2072546,
+              50.9114716
+            ],
+            [
+              14.2070919,
+              50.9116824
+            ],
+            [
+              14.2069577,
+              50.9117522
+            ],
+            [
+              14.2067057,
+              50.911755
+            ],
+            [
+              14.2066437,
+              50.9119194
+            ],
+            [
+              14.2064479,
+              50.9119484
+            ],
+            [
+              14.2062853,
+              50.9122299
+            ]
+          ]
+        },
+        "id": "way/30081724"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/31144427",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Schrammsteinweg"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2090256,
+              50.9107199
+            ],
+            [
+              14.2089827,
+              50.910757
+            ],
+            [
+              14.2089451,
+              50.9108061
+            ],
+            [
+              14.2088942,
+              50.9108416
+            ],
+            [
+              14.2088808,
+              50.9108958
+            ],
+            [
+              14.2088929,
+              50.9109325
+            ],
+            [
+              14.2088915,
+              50.9109676
+            ]
+          ]
+        },
+        "id": "way/31144427"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/31432385",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2258517,
+              50.8969983
+            ],
+            [
+              14.2259835,
+              50.8970249
+            ]
+          ]
+        },
+        "id": "way/31432385"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/31694915",
+          "bicycle": "no",
+          "handrail": "no",
+          "highway": "steps",
+          "lit": "no",
+          "name": "Flößersteig",
+          "sac_scale": "hiking",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2472667,
+              50.9279261
+            ],
+            [
+              14.247327,
+              50.9280305
+            ],
+            [
+              14.2472959,
+              50.9280673
+            ],
+            [
+              14.247354,
+              50.9281701
+            ]
+          ]
+        },
+        "id": "way/31694915"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/31694922",
+          "bicycle": "no",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "down",
+          "lit": "no",
+          "surface": "wood"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2571744,
+              50.9272903
+            ],
+            [
+              14.2570527,
+              50.9273896
+            ],
+            [
+              14.2569052,
+              50.927415
+            ],
+            [
+              14.2565297,
+              50.9274201
+            ],
+            [
+              14.2563754,
+              50.927435
+            ],
+            [
+              14.2563244,
+              50.9275512
+            ]
+          ]
+        },
+        "id": "way/31694922"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/31694931",
+          "bicycle": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2580059,
+              50.9260077
+            ],
+            [
+              14.25788,
+              50.9260784
+            ],
+            [
+              14.2573728,
+              50.9259747
+            ],
+            [
+              14.257349,
+              50.9259954
+            ],
+            [
+              14.2571377,
+              50.9259371
+            ],
+            [
+              14.2571426,
+              50.9259122
+            ],
+            [
+              14.2570506,
+              50.9258877
+            ],
+            [
+              14.2570241,
+              50.9259047
+            ],
+            [
+              14.2569294,
+              50.9258776
+            ]
+          ]
+        },
+        "id": "way/31694931"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/32965453",
+          "bicycle": "no",
+          "highway": "steps",
+          "lit": "no",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2377171,
+              50.926555
+            ],
+            [
+              14.2377443,
+              50.9266059
+            ],
+            [
+              14.2377075,
+              50.926661
+            ],
+            [
+              14.2376387,
+              50.9267071
+            ],
+            [
+              14.2375955,
+              50.9267859
+            ],
+            [
+              14.2375015,
+              50.9268918
+            ]
+          ]
+        },
+        "id": "way/32965453"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/32965945",
+          "bicycle": "no",
+          "highway": "steps",
+          "layer": "1",
+          "lit": "no",
+          "surface": "ground"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2563279,
+              50.9254853
+            ],
+            [
+              14.2562055,
+              50.9254556
+            ]
+          ]
+        },
+        "id": "way/32965945"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/32965951",
+          "bicycle": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2583041,
+              50.9255861
+            ],
+            [
+              14.2583022,
+              50.9257423
+            ],
+            [
+              14.2582891,
+              50.925793
+            ],
+            [
+              14.2582559,
+              50.9258278
+            ],
+            [
+              14.2581676,
+              50.9258998
+            ],
+            [
+              14.2581286,
+              50.9259286
+            ]
+          ]
+        },
+        "id": "way/32965951"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/33238826",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Richterschlüchte",
+          "sac_scale": "mountain_hiking",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2803363,
+              50.8960996
+            ],
+            [
+              14.2799402,
+              50.8959425
+            ]
+          ]
+        },
+        "id": "way/33238826"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/33293495",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "sac_scale": "demanding_mountain_hiking",
+          "steps": "ladder",
+          "surface": "metal"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2801259,
+              50.9103857
+            ],
+            [
+              14.2800364,
+              50.9103725
+            ],
+            [
+              14.2799648,
+              50.9103964
+            ],
+            [
+              14.2799385,
+              50.9104294
+            ]
+          ]
+        },
+        "id": "way/33293495"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/33293496",
+          "bicycle": "no",
+          "highway": "steps",
+          "sac_scale": "mountain_hiking",
+          "surface": "metal"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2800521,
+              50.9103648
+            ],
+            [
+              14.2799329,
+              50.9103342
+            ],
+            [
+              14.2798729,
+              50.9103141
+            ]
+          ]
+        },
+        "id": "way/33293496"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/34036766",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2087726,
+              50.9205411
+            ],
+            [
+              14.2087705,
+              50.9206163
+            ],
+            [
+              14.208804,
+              50.9206862
+            ]
+          ]
+        },
+        "id": "way/34036766"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/34036768",
+          "bicycle": "no",
+          "highway": "steps",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.208804,
+              50.9206862
+            ],
+            [
+              14.2086391,
+              50.9207208
+            ],
+            [
+              14.2084741,
+              50.9207422
+            ]
+          ]
+        },
+        "id": "way/34036768"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/34037123",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Mittelwinkel"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2079805,
+              50.9117803
+            ],
+            [
+              14.20806,
+              50.9117707
+            ],
+            [
+              14.2081802,
+              50.9117561
+            ],
+            [
+              14.208452,
+              50.9116738
+            ]
+          ]
+        },
+        "id": "way/34037123"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/34037127",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "path": "climbing_access"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2001539,
+              50.9132159
+            ],
+            [
+              14.2006573,
+              50.913239
+            ]
+          ]
+        },
+        "id": "way/34037127"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/34037960",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "down",
+          "name": "Jägersteig"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2088915,
+              50.9109676
+            ],
+            [
+              14.2087641,
+              50.9109668
+            ],
+            [
+              14.2087118,
+              50.9109448
+            ],
+            [
+              14.2085991,
+              50.9109274
+            ],
+            [
+              14.2084946,
+              50.9109431
+            ],
+            [
+              14.208449,
+              50.9108805
+            ],
+            [
+              14.2083122,
+              50.9109736
+            ],
+            [
+              14.2082988,
+              50.9108653
+            ],
+            [
+              14.2081083,
+              50.9109499
+            ],
+            [
+              14.2081405,
+              50.910845
+            ],
+            [
+              14.2079903,
+              50.9109177
+            ]
+          ]
+        },
+        "id": "way/34037960"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/34680473",
+          "bicycle": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2594543,
+              50.9133969
+            ],
+            [
+              14.2594722,
+              50.9132661
+            ],
+            [
+              14.2593837,
+              50.9132357
+            ],
+            [
+              14.2594248,
+              50.9131703
+            ],
+            [
+              14.2593864,
+              50.9130919
+            ],
+            [
+              14.2593117,
+              50.9130597
+            ],
+            [
+              14.2592201,
+              50.9130632
+            ],
+            [
+              14.259141,
+              50.9131161
+            ],
+            [
+              14.259043,
+              50.9131815
+            ],
+            [
+              14.2590162,
+              50.9131274
+            ],
+            [
+              14.2589599,
+              50.913124
+            ],
+            [
+              14.2589208,
+              50.9132158
+            ],
+            [
+              14.2588124,
+              50.9131646
+            ],
+            [
+              14.2586943,
+              50.9131579
+            ],
+            [
+              14.2587185,
+              50.9129143
+            ]
+          ]
+        },
+        "id": "way/34680473"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/34680478",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Königsweg"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2355545,
+              50.9205297
+            ],
+            [
+              14.2355933,
+              50.9201673
+            ]
+          ]
+        },
+        "id": "way/34680478"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/35367432",
+          "bicycle": "no",
+          "highway": "steps",
+          "path": "mountain_path",
+          "sac_scale": "demanding_mountain_hiking",
+          "surface": "metal"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2802939,
+              50.9081722
+            ],
+            [
+              14.2803034,
+              50.9081861
+            ]
+          ]
+        },
+        "id": "way/35367432"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/38845154",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "down",
+          "name": "Breite Kluft",
+          "sac_scale": "mountain_hiking",
+          "trail_visibility": "good"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2236774,
+              50.9071422
+            ],
+            [
+              14.223629,
+              50.9071743
+            ],
+            [
+              14.2235129,
+              50.9072316
+            ],
+            [
+              14.2234419,
+              50.9071789
+            ],
+            [
+              14.2233589,
+              50.9071388
+            ],
+            [
+              14.2232877,
+              50.9071772
+            ],
+            [
+              14.2232468,
+              50.9071417
+            ],
+            [
+              14.2231523,
+              50.9070952
+            ],
+            [
+              14.2231216,
+              50.9070512
+            ],
+            [
+              14.2232147,
+              50.9070056
+            ],
+            [
+              14.2232729,
+              50.9068955
+            ],
+            [
+              14.2232429,
+              50.9068224
+            ],
+            [
+              14.2232038,
+              50.9067352
+            ],
+            [
+              14.2231986,
+              50.9066538
+            ],
+            [
+              14.2231448,
+              50.90661
+            ],
+            [
+              14.223145,
+              50.9065252
+            ],
+            [
+              14.2232684,
+              50.9064813
+            ],
+            [
+              14.223483,
+              50.906488
+            ],
+            [
+              14.2235694,
+              50.9065105
+            ],
+            [
+              14.2236553,
+              50.906507
+            ],
+            [
+              14.2237988,
+              50.906439
+            ],
+            [
+              14.2238531,
+              50.9063662
+            ],
+            [
+              14.2239174,
+              50.906274
+            ]
+          ]
+        },
+        "id": "way/38845154"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/40321724",
+          "bicycle": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2071575,
+              50.9064475
+            ],
+            [
+              14.2070248,
+              50.9064231
+            ],
+            [
+              14.2068032,
+              50.9064338
+            ],
+            [
+              14.2067659,
+              50.9064163
+            ],
+            [
+              14.2068118,
+              50.9063746
+            ]
+          ]
+        },
+        "id": "way/40321724"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/40393919",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Häntzschelstiege",
+          "oneway": "yes",
+          "path": "mountain_path",
+          "steps": "ladder"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2360588,
+              50.9187119
+            ],
+            [
+              14.2360478,
+              50.9186873
+            ]
+          ]
+        },
+        "id": "way/40393919"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/41193666",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.211047,
+              50.8862519
+            ],
+            [
+              14.2110266,
+              50.8862725
+            ],
+            [
+              14.2110992,
+              50.886306
+            ]
+          ]
+        },
+        "id": "way/41193666"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/41265997",
+          "bicycle": "no",
+          "highway": "steps",
+          "steps": "ladder"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2552486,
+              50.9252362
+            ],
+            [
+              14.2552565,
+              50.9252494
+            ]
+          ]
+        },
+        "id": "way/41265997"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/45073662",
+          "handrail": "yes",
+          "highway": "steps",
+          "surface": "metal"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2185104,
+              50.8868239
+            ],
+            [
+              14.2186149,
+              50.8868668
+            ]
+          ]
+        },
+        "id": "way/45073662"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/45073666",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2170883,
+              50.8849488
+            ],
+            [
+              14.2171639,
+              50.8850724
+            ],
+            [
+              14.2175184,
+              50.8852765
+            ],
+            [
+              14.2173229,
+              50.8854291
+            ],
+            [
+              14.2171721,
+              50.8855494
+            ],
+            [
+              14.2171287,
+              50.8855979
+            ],
+            [
+              14.216997,
+              50.8857452
+            ],
+            [
+              14.2171713,
+              50.8857839
+            ],
+            [
+              14.2172255,
+              50.8858201
+            ],
+            [
+              14.2172634,
+              50.8859968
+            ],
+            [
+              14.2173267,
+              50.8861622
+            ]
+          ]
+        },
+        "id": "way/45073666"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/45074183",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "metal"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2178847,
+              50.8860854
+            ],
+            [
+              14.2178962,
+              50.8861272
+            ],
+            [
+              14.2179148,
+              50.88617
+            ],
+            [
+              14.2179422,
+              50.8862241
+            ]
+          ]
+        },
+        "id": "way/45074183"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/45074741",
+          "foot": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "surface": "metal"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2179288,
+              50.8863107
+            ],
+            [
+              14.2180187,
+              50.8863124
+            ]
+          ]
+        },
+        "id": "way/45074741"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/45074742",
+          "foot": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "metal"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2177565,
+              50.8862552
+            ],
+            [
+              14.2178023,
+              50.8862646
+            ],
+            [
+              14.2178517,
+              50.8862758
+            ],
+            [
+              14.217906,
+              50.8862809
+            ],
+            [
+              14.2179349,
+              50.8862814
+            ]
+          ]
+        },
+        "id": "way/45074742"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/50008854",
+          "highway": "steps",
+          "incline": "up",
+          "lit": "yes",
+          "ramp": "no",
+          "surface": "paving_stones"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2281047,
+              50.890204
+            ],
+            [
+              14.2281731,
+              50.8901388
+            ]
+          ]
+        },
+        "id": "way/50008854"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/59161802",
+          "highway": "steps",
+          "incline": "25%",
+          "mtb:scale": "4",
+          "mtb:scale:uphill": "5"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2191324,
+              50.8970792
+            ],
+            [
+              14.2190341,
+              50.8970009
+            ],
+            [
+              14.2186864,
+              50.8971544
+            ],
+            [
+              14.2188255,
+              50.8968401
+            ],
+            [
+              14.2189993,
+              50.8966062
+            ],
+            [
+              14.2188834,
+              50.8964673
+            ],
+            [
+              14.2185357,
+              50.8965185
+            ],
+            [
+              14.2183503,
+              50.8965769
+            ],
+            [
+              14.2181401,
+              50.8964773
+            ],
+            [
+              14.2178697,
+              50.8967148
+            ],
+            [
+              14.2175919,
+              50.8966024
+            ],
+            [
+              14.2176549,
+              50.8962699
+            ],
+            [
+              14.2175739,
+              50.8961531
+            ]
+          ]
+        },
+        "id": "way/59161802"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/61101152",
+          "highway": "steps",
+          "incline": "70%",
+          "step_count": "60",
+          "width": "1"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.198316,
+              50.9054453
+            ],
+            [
+              14.1982658,
+              50.9053266
+            ]
+          ]
+        },
+        "id": "way/61101152"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/61101153",
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "steps",
+          "horse": "no",
+          "incline": "50%",
+          "motorcar": "no",
+          "ski": "no",
+          "snowmobile": "no",
+          "step_count": "41",
+          "width": "1"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.1981165,
+              50.9053468
+            ],
+            [
+              14.1980857,
+              50.9052331
+            ]
+          ]
+        },
+        "id": "way/61101153"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/61101154",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2199888,
+              50.8953056
+            ],
+            [
+              14.219935,
+              50.8953353
+            ],
+            [
+              14.2199599,
+              50.8953615
+            ],
+            [
+              14.2201159,
+              50.8953284
+            ]
+          ]
+        },
+        "id": "way/61101154"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/61108092",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "down",
+          "lit": "no",
+          "surface": "unhewn_cobblestone"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2043955,
+              50.9311139
+            ],
+            [
+              14.2046367,
+              50.9311311
+            ]
+          ]
+        },
+        "id": "way/61108092"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/107592436",
+          "access": "yes",
+          "bicycle": "no",
+          "bicycle_parking": "no",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Richterschlüchte",
+          "sac_scale": "hiking",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2763519,
+              50.8953803
+            ],
+            [
+              14.2765835,
+              50.8955359
+            ]
+          ]
+        },
+        "id": "way/107592436"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/111637202",
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "steps",
+          "horse": "no",
+          "name": "Zugang Rübezahlstiege",
+          "path": "climbing_access",
+          "sac_scale": "demanding_mountain_hiking",
+          "surface": "unpaved",
+          "via_ferrata_scale": "1"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2452949,
+              50.9065539
+            ],
+            [
+              14.2453067,
+              50.9065955
+            ]
+          ]
+        },
+        "id": "way/111637202"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/116411531",
+          "access": "yes",
+          "bicycle": "no",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Zwillingsstiege",
+          "oneway": "yes",
+          "rungs": "yes",
+          "sac_scale": "difficult_alpine_hiking",
+          "tactile_paving": "no"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2346485,
+              50.9177631
+            ],
+            [
+              14.2347524,
+              50.9176143
+            ],
+            [
+              14.2348026,
+              50.9175357
+            ],
+            [
+              14.23502,
+              50.9174147
+            ],
+            [
+              14.2351273,
+              50.9172997
+            ],
+            [
+              14.2352775,
+              50.9172219
+            ],
+            [
+              14.2354009,
+              50.9171002
+            ]
+          ]
+        },
+        "id": "way/116411531"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/117743394",
+          "access": "private",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2331883,
+              50.8912928
+            ],
+            [
+              14.2328793,
+              50.8913877
+            ]
+          ]
+        },
+        "id": "way/117743394"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/132647937",
+          "handrail": "yes",
+          "handrail:left": "yes",
+          "handrail:right": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "ramp": "no",
+          "surface": "asphalt"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.229809,
+              50.8920021
+            ],
+            [
+              14.2296992,
+              50.8919644
+            ]
+          ]
+        },
+        "id": "way/132647937"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/133523820",
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "steps",
+          "horse": "no",
+          "incline": "down",
+          "layer": "-1",
+          "mtb:scale": "0",
+          "path": "climbing_access",
+          "ski": "no",
+          "snowmobile": "no",
+          "surface": "unpaved",
+          "trail_visibility": "good",
+          "wheelchair": "no",
+          "width": "1"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2279606,
+              50.9019856
+            ],
+            [
+              14.2278779,
+              50.901979
+            ]
+          ]
+        },
+        "id": "way/133523820"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/147614254",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Schrammsteinweg"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2001985,
+              50.9111055
+            ],
+            [
+              14.2002667,
+              50.911088
+            ],
+            [
+              14.200342,
+              50.9110534
+            ],
+            [
+              14.2003925,
+              50.9110216
+            ],
+            [
+              14.2004691,
+              50.9109627
+            ],
+            [
+              14.2005151,
+              50.9109501
+            ]
+          ]
+        },
+        "id": "way/147614254"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/147614258",
+          "bicycle": "no",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2266641,
+              50.8968631
+            ],
+            [
+              14.2266158,
+              50.8969883
+            ],
+            [
+              14.2267982,
+              50.8969646
+            ],
+            [
+              14.2267982,
+              50.8970864
+            ],
+            [
+              14.2269108,
+              50.8970425
+            ],
+            [
+              14.2271653,
+              50.8970557
+            ]
+          ]
+        },
+        "id": "way/147614258"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/161787959",
+          "bicycle": "no",
+          "highway": "steps",
+          "path": "climbing_access",
+          "sac_scale": "hiking",
+          "surface": "sand"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2531904,
+              50.9263374
+            ],
+            [
+              14.2533749,
+              50.9263629
+            ],
+            [
+              14.2535136,
+              50.9263902
+            ]
+          ]
+        },
+        "id": "way/161787959"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/161862481",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2254601,
+              50.8964788
+            ],
+            [
+              14.2257397,
+              50.8965864
+            ]
+          ]
+        },
+        "id": "way/161862481"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/164350234",
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "steps",
+          "note": "2016-04: Kein Weg gefunden",
+          "sac_scale": "hiking",
+          "surface": "ground",
+          "trail_visibility": "horrible"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2072688,
+              50.9203224
+            ],
+            [
+              14.2071384,
+              50.920351
+            ]
+          ]
+        },
+        "id": "way/164350234"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/174498172",
+          "FIXME": "exact position",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Flößersteig"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.200896,
+              50.9289424
+            ],
+            [
+              14.200645,
+              50.9289935
+            ]
+          ]
+        },
+        "id": "way/174498172"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/185490636",
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "name": "Lehnsteig",
+          "sac_scale": "mountain_hiking",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2467157,
+              50.9041317
+            ],
+            [
+              14.2467307,
+              50.9041078
+            ],
+            [
+              14.2465985,
+              50.9040698
+            ],
+            [
+              14.2460558,
+              50.9038907
+            ],
+            [
+              14.2460342,
+              50.9039352
+            ],
+            [
+              14.2458985,
+              50.9038682
+            ],
+            [
+              14.2457632,
+              50.9038647
+            ],
+            [
+              14.2455856,
+              50.9038102
+            ],
+            [
+              14.2454248,
+              50.9038487
+            ],
+            [
+              14.2453257,
+              50.9037958
+            ],
+            [
+              14.2452053,
+              50.9038051
+            ]
+          ]
+        },
+        "id": "way/185490636"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/217453544",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Schießgrund",
+          "sac_scale": "hiking",
+          "trail_visibility": "excellent"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.1994928,
+              50.9156855
+            ],
+            [
+              14.1995608,
+              50.9157555
+            ],
+            [
+              14.1996861,
+              50.9159223
+            ]
+          ]
+        },
+        "id": "way/217453544"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/222504242",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Schießgrund",
+          "sac_scale": "hiking",
+          "trail_visibility": "excellent"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.1998815,
+              50.9161063
+            ],
+            [
+              14.2000559,
+              50.9161004
+            ]
+          ]
+        },
+        "id": "way/222504242"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/222504249",
+          "bicycle": "no",
+          "highway": "steps",
+          "path": "climbing_access"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.1998942,
+              50.9161309
+            ],
+            [
+              14.1997213,
+              50.91617
+            ]
+          ]
+        },
+        "id": "way/222504249"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/226452750",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.199412,
+              50.8877591
+            ],
+            [
+              14.1993692,
+              50.8877496
+            ]
+          ]
+        },
+        "id": "way/226452750"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/226452752",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.1992963,
+              50.8877496
+            ],
+            [
+              14.1992552,
+              50.8877517
+            ]
+          ]
+        },
+        "id": "way/226452752"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/227231863",
+          "bicycle": "no",
+          "description": "Flache Stufen, 885 insgesamt für die Heilige Stiege (+die 103 vom Zurückesteig)",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Heilige Stiege",
+          "sac_scale": "hiking",
+          "wikipedia": "de:Heilige Stiege (Sächsische Schweiz)"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2372641,
+              50.909918
+            ],
+            [
+              14.2374197,
+              50.9100634
+            ],
+            [
+              14.2376471,
+              50.9101218
+            ],
+            [
+              14.2377224,
+              50.9101906
+            ],
+            [
+              14.2376256,
+              50.9102664
+            ],
+            [
+              14.2375699,
+              50.9103509
+            ],
+            [
+              14.2375003,
+              50.9104516
+            ]
+          ]
+        },
+        "id": "way/227231863"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/227231874",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "paved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2319773,
+              50.8918104
+            ],
+            [
+              14.2321507,
+              50.8918673
+            ],
+            [
+              14.2324544,
+              50.89189
+            ]
+          ]
+        },
+        "id": "way/227231874"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/227231879",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Zurückesteig",
+          "sac_scale": "mountain_hiking",
+          "trail_visibility": "good"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2350447,
+              50.9094589
+            ],
+            [
+              14.235313,
+              50.9096126
+            ],
+            [
+              14.2353709,
+              50.9095865
+            ],
+            [
+              14.2354352,
+              50.9095932
+            ]
+          ]
+        },
+        "id": "way/227231879"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/227231880",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Zurückesteig",
+          "sac_scale": "mountain_hiking",
+          "surface": "ground",
+          "trail_visibility": "good"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2364108,
+              50.909781
+            ],
+            [
+              14.2361599,
+              50.9097255
+            ]
+          ]
+        },
+        "id": "way/227231880"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/227231882",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Zurückesteig",
+          "sac_scale": "mountain_hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2345111,
+              50.9085308
+            ],
+            [
+              14.2346181,
+              50.9086056
+            ],
+            [
+              14.2347858,
+              50.9086559
+            ],
+            [
+              14.2348819,
+              50.9086838
+            ],
+            [
+              14.234908,
+              50.90871
+            ],
+            [
+              14.2348537,
+              50.9087427
+            ]
+          ]
+        },
+        "id": "way/227231882"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/231988733",
+          "access": "no",
+          "highway": "steps",
+          "incline": "down",
+          "name:de": "Husche"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2669703,
+              50.8915003
+            ],
+            [
+              14.2668781,
+              50.8912756
+            ]
+          ]
+        },
+        "id": "way/231988733"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/238113844",
+          "bicycle": "no",
+          "highway": "steps",
+          "lit": "no",
+          "surface": "ground"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2562089,
+              50.925444
+            ],
+            [
+              14.2560961,
+              50.9254197
+            ]
+          ]
+        },
+        "id": "way/238113844"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/238113845",
+          "bicycle": "no",
+          "highway": "steps",
+          "lit": "no",
+          "surface": "ground"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.256293,
+              50.9254151
+            ],
+            [
+              14.2562439,
+              50.9254515
+            ]
+          ]
+        },
+        "id": "way/238113845"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/238163035",
+          "access": "private",
+          "bicycle": "no",
+          "check_date": "2021-03-16",
+          "description": "Gefahr durch zusammenbrechendes Totholz",
+          "foot": "discouraged",
+          "hazard": "falling_trees",
+          "highway": "steps",
+          "note": "Auf dem Friensteinabstieg besteht durch abgestorbene Bäume und zusammenbrechendes Totholz eine sehr hohe Gefährdung. Deshalb ist dieser Weg gegenwärtig  unpassierbar. https://www.nationalpark-saechsische-schweiz.de/aktuelles/wegeservice-und-wegeinfo/",
+          "surface": "wood"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2438564,
+              50.912681
+            ],
+            [
+              14.2438734,
+              50.9127425
+            ],
+            [
+              14.243887,
+              50.9127917
+            ],
+            [
+              14.2437368,
+              50.9128882
+            ],
+            [
+              14.2437383,
+              50.9129955
+            ],
+            [
+              14.2436793,
+              50.9131037
+            ],
+            [
+              14.2434761,
+              50.9132692
+            ],
+            [
+              14.2434326,
+              50.9133676
+            ],
+            [
+              14.2435271,
+              50.9134526
+            ],
+            [
+              14.2436861,
+              50.9135253
+            ]
+          ]
+        },
+        "id": "way/238163035"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/247344104",
+          "handrail": "yes",
+          "handrail:left": "yes",
+          "handrail:right": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "lit": "yes",
+          "ramp": "no",
+          "step_count": "11",
+          "surface": "concrete"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2284324,
+              50.8902554
+            ],
+            [
+              14.2286345,
+              50.8903415
+            ]
+          ]
+        },
+        "id": "way/247344104"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/252048047",
+          "bicycle": "no",
+          "highway": "steps",
+          "path": "climbing_access",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2564358,
+              50.90646
+            ],
+            [
+              14.2565241,
+              50.9065248
+            ]
+          ]
+        },
+        "id": "way/252048047"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/254341027",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Bergsteig",
+          "sac_scale": "mountain_hiking",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2469872,
+              50.8940248
+            ],
+            [
+              14.247507,
+              50.8939053
+            ],
+            [
+              14.247621,
+              50.8939109
+            ],
+            [
+              14.2478737,
+              50.8940576
+            ],
+            [
+              14.2482319,
+              50.8940324
+            ],
+            [
+              14.2483854,
+              50.8941133
+            ],
+            [
+              14.2495151,
+              50.8942669
+            ],
+            [
+              14.24971,
+              50.894336
+            ],
+            [
+              14.2500202,
+              50.8943976
+            ],
+            [
+              14.2501253,
+              50.8943545
+            ],
+            [
+              14.2506295,
+              50.894381
+            ],
+            [
+              14.2512929,
+              50.894524
+            ],
+            [
+              14.2514711,
+              50.8946863
+            ],
+            [
+              14.2516642,
+              50.8947819
+            ],
+            [
+              14.2518296,
+              50.8948332
+            ],
+            [
+              14.2521946,
+              50.8948829
+            ],
+            [
+              14.2523469,
+              50.8948597
+            ],
+            [
+              14.2527402,
+              50.8950058
+            ],
+            [
+              14.2529659,
+              50.8950055
+            ]
+          ]
+        },
+        "id": "way/254341027"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/254341028",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Bergsteig",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2355879,
+              50.892438
+            ],
+            [
+              14.2356404,
+              50.8923988
+            ]
+          ]
+        },
+        "id": "way/254341028"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/278192435",
+          "access": "no",
+          "bicycle": "no",
+          "handrail": "no",
+          "highway": "steps",
+          "informal": "yes",
+          "lit": "no",
+          "name": "Wolfsfalle",
+          "note": "Betretungsverbot (Nationalparkverordnung)",
+          "sac_scale": "difficult_alpine_hiking",
+          "trail_visibility": "intermediate"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2394701,
+              50.914373
+            ],
+            [
+              14.2393251,
+              50.914379
+            ]
+          ]
+        },
+        "id": "way/278192435"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/286781943",
+          "bicycle": "no",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "sac_scale": "hiking",
+          "step_count": "65",
+          "surface": "wood"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2447919,
+              50.9104719
+            ],
+            [
+              14.2447775,
+              50.9103495
+            ]
+          ]
+        },
+        "id": "way/286781943"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/286839996",
+          "bicycle": "no",
+          "highway": "steps",
+          "step_count": "31",
+          "surface": "wood"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2364135,
+              50.9199297
+            ],
+            [
+              14.2364278,
+              50.9198203
+            ]
+          ]
+        },
+        "id": "way/286839996"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/286839998",
+          "bicycle": "no",
+          "highway": "steps",
+          "step_count": "35",
+          "surface": "wood"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.236282,
+              50.9201435
+            ],
+            [
+              14.2362982,
+              50.9200894
+            ],
+            [
+              14.2364135,
+              50.9199297
+            ]
+          ]
+        },
+        "id": "way/286839998"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/290580749",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2175184,
+              50.8852765
+            ],
+            [
+              14.2175632,
+              50.8853635
+            ],
+            [
+              14.217592,
+              50.8854611
+            ]
+          ]
+        },
+        "id": "way/290580749"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/292604001",
+          "bicycle": "no",
+          "direction": "up",
+          "highway": "steps",
+          "incline": "up",
+          "name": "obere Häntzschelstiege",
+          "oneway": "yes",
+          "path": "mountain_path",
+          "sac_scale": "demanding_mountain_hiking",
+          "tunnel": "yes",
+          "via_ferrata_scale": "2",
+          "wikidata": "Q1642355",
+          "wikipedia": "de:Häntzschelstiege"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2359284,
+              50.9183104
+            ],
+            [
+              14.2359569,
+              50.9182928
+            ]
+          ]
+        },
+        "id": "way/292604001"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/293239929",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Obere Affensteinpromenade",
+          "path": "mountain_path",
+          "sac_scale": "mountain_hiking",
+          "tunnel": "yes"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2355864,
+              50.9184067
+            ],
+            [
+              14.235691,
+              50.9184328
+            ]
+          ]
+        },
+        "id": "way/293239929"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/293551641",
+          "handrail": "yes",
+          "handrail:left": "yes",
+          "handrail:right": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "lit": "yes",
+          "ramp": "no",
+          "step_count": "13",
+          "surface": "paving_stones"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2283568,
+              50.8902217
+            ],
+            [
+              14.2284324,
+              50.8902554
+            ]
+          ]
+        },
+        "id": "way/293551641"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/297874308",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Mittelwinkel"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2086405,
+              50.9115086
+            ],
+            [
+              14.2088361,
+              50.9114623
+            ],
+            [
+              14.2089454,
+              50.9114837
+            ],
+            [
+              14.2090317,
+              50.9114159
+            ],
+            [
+              14.2091087,
+              50.9113034
+            ],
+            [
+              14.2092415,
+              50.9112954
+            ],
+            [
+              14.2092605,
+              50.9113513
+            ],
+            [
+              14.2093835,
+              50.9114197
+            ],
+            [
+              14.2094317,
+              50.9114834
+            ],
+            [
+              14.2093327,
+              50.9115487
+            ],
+            [
+              14.2093608,
+              50.9116473
+            ],
+            [
+              14.2094614,
+              50.91184
+            ],
+            [
+              14.2095086,
+              50.9118701
+            ],
+            [
+              14.2095288,
+              50.9117362
+            ],
+            [
+              14.2095999,
+              50.9117119
+            ]
+          ]
+        },
+        "id": "way/297874308"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/297874319",
+          "bicycle": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2055749,
+              50.9122875
+            ],
+            [
+              14.2057302,
+              50.9122799
+            ],
+            [
+              14.2057045,
+              50.9122286
+            ],
+            [
+              14.2059321,
+              50.9122341
+            ]
+          ]
+        },
+        "id": "way/297874319"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/306588240",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "down",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2362246,
+              50.9123931
+            ],
+            [
+              14.2361131,
+              50.9124908
+            ],
+            [
+              14.2359478,
+              50.9125953
+            ],
+            [
+              14.235859,
+              50.912712
+            ],
+            [
+              14.2357286,
+              50.9128532
+            ],
+            [
+              14.2356074,
+              50.9129637
+            ],
+            [
+              14.2355155,
+              50.9131953
+            ],
+            [
+              14.2353021,
+              50.9134003
+            ],
+            [
+              14.2351791,
+              50.9134854
+            ],
+            [
+              14.2349719,
+              50.9135475
+            ],
+            [
+              14.234915,
+              50.9136076
+            ],
+            [
+              14.2347956,
+              50.9137007
+            ],
+            [
+              14.2346566,
+              50.9138257
+            ],
+            [
+              14.2345194,
+              50.9139453
+            ]
+          ]
+        },
+        "id": "way/306588240"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/315032921",
+          "bicycle": "no",
+          "highway": "steps",
+          "path": "climbing_access",
+          "sac_scale": "difficult_alpine_hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2299863,
+              50.9125707
+            ],
+            [
+              14.2299594,
+              50.9125855
+            ],
+            [
+              14.2298696,
+              50.9125765
+            ],
+            [
+              14.2298643,
+              50.9125978
+            ],
+            [
+              14.2297606,
+              50.9125852
+            ]
+          ]
+        },
+        "id": "way/315032921"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/328372435",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Schwarzes Loch",
+          "path": "climbing_access",
+          "sac_scale": "mountain_hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2198338,
+              50.9085537
+            ],
+            [
+              14.2197733,
+              50.9084769
+            ]
+          ]
+        },
+        "id": "way/328372435"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/328385976",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Rotkehlchenstiege",
+          "note": "Markierung \"Bergpfad\"",
+          "oneway": "no",
+          "path": "mountain_path",
+          "ramp": "no",
+          "sac_scale": "mountain_hiking",
+          "surface": "rock",
+          "width": "1",
+          "wikipedia": "de:Schrammsteine#Rotkehlchenstiege"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.234405,
+              50.906465
+            ],
+            [
+              14.2344078,
+              50.9065225
+            ]
+          ]
+        },
+        "id": "way/328385976"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/334361386",
+          "bicycle": "no",
+          "highway": "steps",
+          "path": "climbing_access",
+          "sac_scale": "hiking",
+          "surface": "ground",
+          "trail_visibility": "excellent"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.200056,
+              50.9162584
+            ],
+            [
+              14.1999103,
+              50.9161587
+            ]
+          ]
+        },
+        "id": "way/334361386"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/334364176",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2089593,
+              50.9209075
+            ],
+            [
+              14.2089143,
+              50.9209525
+            ],
+            [
+              14.2089583,
+              50.9210753
+            ]
+          ]
+        },
+        "id": "way/334364176"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/343069155",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Wolfsstiege",
+          "path": "climbing_access",
+          "sac_scale": "alpine_hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2387947,
+              50.9154058
+            ],
+            [
+              14.23882,
+              50.9153678
+            ],
+            [
+              14.2387319,
+              50.9153829
+            ],
+            [
+              14.2387833,
+              50.9153505
+            ],
+            [
+              14.2387117,
+              50.9153539
+            ],
+            [
+              14.2387556,
+              50.9153212
+            ],
+            [
+              14.2386695,
+              50.9153343
+            ],
+            [
+              14.2386243,
+              50.9153613
+            ]
+          ]
+        },
+        "id": "way/343069155"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/345790991",
+          "highway": "steps",
+          "surface": "paved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2592564,
+              50.8961842
+            ],
+            [
+              14.2594132,
+              50.8961831
+            ],
+            [
+              14.2594315,
+              50.8962352
+            ]
+          ]
+        },
+        "id": "way/345790991"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/345836881",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2016351,
+              50.9293978
+            ],
+            [
+              14.2016163,
+              50.9293997
+            ],
+            [
+              14.2016092,
+              50.9294267
+            ]
+          ]
+        },
+        "id": "way/345836881"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/368645421",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2282312,
+              50.8970097
+            ],
+            [
+              14.2286476,
+              50.8970115
+            ]
+          ]
+        },
+        "id": "way/368645421"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/368645424",
+          "bicycle": "no",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2275149,
+              50.8968691
+            ],
+            [
+              14.22772,
+              50.896966
+            ],
+            [
+              14.228044,
+              50.8970023
+            ]
+          ]
+        },
+        "id": "way/368645424"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/368652791",
+          "bicycle": "no",
+          "handrail": "no",
+          "highway": "steps",
+          "incline": "up",
+          "lit": "no",
+          "name": "Rotkehlchenstiege",
+          "note": "Markierung \"Bergpfad\"",
+          "oneway": "no",
+          "path": "mountain_path",
+          "ramp": "no",
+          "sac_scale": "mountain_hiking",
+          "surface": "rock",
+          "width": "1",
+          "wikipedia": "de:Schrammsteine#Rotkehlchenstiege"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2343061,
+              50.9065943
+            ],
+            [
+              14.2341376,
+              50.9066013
+            ],
+            [
+              14.2340057,
+              50.9066358
+            ]
+          ]
+        },
+        "id": "way/368652791"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/369276443",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Zurückesteig",
+          "sac_scale": "hiking",
+          "surface": "ground",
+          "trail_visibility": "good"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2368668,
+              50.9099886
+            ],
+            [
+              14.2368541,
+              50.9099849
+            ],
+            [
+              14.2368325,
+              50.9099909
+            ],
+            [
+              14.2367033,
+              50.9099074
+            ]
+          ]
+        },
+        "id": "way/369276443"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/369371452",
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "name": "Lehnsteig",
+          "sac_scale": "mountain_hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2442588,
+              50.9032554
+            ],
+            [
+              14.2441485,
+              50.9031642
+            ],
+            [
+              14.2440452,
+              50.9031055
+            ]
+          ]
+        },
+        "id": "way/369371452"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/369371456",
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "name": "Lehnsteig",
+          "sac_scale": "mountain_hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2450242,
+              50.9034063
+            ],
+            [
+              14.2448905,
+              50.9034499
+            ],
+            [
+              14.2446014,
+              50.9034532
+            ]
+          ]
+        },
+        "id": "way/369371456"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/369371463",
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "name": "Lehnsteig",
+          "sac_scale": "mountain_hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2438379,
+              50.9029419
+            ],
+            [
+              14.2438486,
+              50.9028277
+            ],
+            [
+              14.2438926,
+              50.9026985
+            ],
+            [
+              14.2438883,
+              50.9025422
+            ],
+            [
+              14.2437754,
+              50.9023668
+            ]
+          ]
+        },
+        "id": "way/369371463"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/369406391",
+          "access": "private",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "paved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2316581,
+              50.8917984
+            ],
+            [
+              14.2316678,
+              50.8917709
+            ],
+            [
+              14.2317242,
+              50.8917334
+            ]
+          ]
+        },
+        "id": "way/369406391"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/369406394",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "paved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2316581,
+              50.8917984
+            ],
+            [
+              14.2317642,
+              50.8918097
+            ],
+            [
+              14.2318558,
+              50.8918231
+            ],
+            [
+              14.231936,
+              50.8918227
+            ],
+            [
+              14.2319773,
+              50.8918104
+            ]
+          ]
+        },
+        "id": "way/369406394"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/369406397",
+          "highway": "steps",
+          "incline": "up",
+          "surface": "paved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2318558,
+              50.8918231
+            ],
+            [
+              14.2319463,
+              50.89179
+            ],
+            [
+              14.2319843,
+              50.8917639
+            ],
+            [
+              14.2320205,
+              50.891727
+            ]
+          ]
+        },
+        "id": "way/369406397"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/375808742",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Domstiege",
+          "path": "climbing_access",
+          "sac_scale": "demanding_mountain_hiking",
+          "trail_visibility": "good"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2325935,
+              50.9122976
+            ],
+            [
+              14.2325615,
+              50.9123262
+            ]
+          ]
+        },
+        "id": "way/375808742"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/375808743",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "down",
+          "name": "Domstiege",
+          "path": "climbing_access",
+          "sac_scale": "demanding_mountain_hiking",
+          "trail_visibility": "good"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2316202,
+              50.9125629
+            ],
+            [
+              14.2315041,
+              50.9125826
+            ]
+          ]
+        },
+        "id": "way/375808743"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/375808753",
+          "highway": "steps",
+          "incline": "down"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2353808,
+              50.9194185
+            ],
+            [
+              14.2354517,
+              50.9193874
+            ]
+          ]
+        },
+        "id": "way/375808753"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/406318841",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Flößersteig",
+          "sac_scale": "hiking",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2748381,
+              50.9253305
+            ],
+            [
+              14.2751658,
+              50.9253577
+            ]
+          ]
+        },
+        "id": "way/406318841"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/416466150",
+          "bicycle": "no",
+          "highway": "steps",
+          "horse": "no",
+          "incline": "up",
+          "path": "climbing_access",
+          "sac_scale": "hiking",
+          "surface": "wood",
+          "symbol": "schwarzer Pfeil auf weißem Grund",
+          "trail_visibility": "good",
+          "width": "0.5"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2494371,
+              50.9046441
+            ],
+            [
+              14.2494392,
+              50.9046036
+            ]
+          ]
+        },
+        "id": "way/416466150"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/425051641",
+          "bicycle": "no",
+          "highway": "steps",
+          "path": "climbing_access"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2006926,
+              50.9121656
+            ],
+            [
+              14.2007929,
+              50.912179
+            ]
+          ]
+        },
+        "id": "way/425051641"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/425051644",
+          "bicycle": "no",
+          "highway": "steps",
+          "path": "climbing_access"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2003382,
+              50.9120178
+            ],
+            [
+              14.2004551,
+              50.9120548
+            ],
+            [
+              14.200467,
+              50.9120918
+            ]
+          ]
+        },
+        "id": "way/425051644"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/435721722",
+          "bicycle": "no",
+          "highway": "steps",
+          "sac_scale": "hiking",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2767968,
+              50.8955612
+            ],
+            [
+              14.2767873,
+              50.8956077
+            ]
+          ]
+        },
+        "id": "way/435721722"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/444421846",
+          "bicycle": "no",
+          "description": "Stiege, die nur im Aufstieg begangen werden sollte",
+          "highway": "steps",
+          "horse": "no",
+          "name": "Rübezahlstiege",
+          "oneway": "recommended",
+          "path": "climbing_access",
+          "rungs": "yes",
+          "sac_scale": "difficult_alpine_hiking",
+          "safety_rope": "no",
+          "surface": "rock",
+          "via_ferrata": "yes",
+          "via_ferrata_scale": "1",
+          "via_ferrata_set": "no",
+          "width": "0.6",
+          "wikipedia": "de:Rübezahlstiege"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2450465,
+              50.907262
+            ],
+            [
+              14.2451912,
+              50.9073289
+            ]
+          ]
+        },
+        "id": "way/444421846"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/444421847",
+          "bicycle": "no",
+          "description": "Stiege, die nur im Aufstieg begangen werden sollte",
+          "highway": "steps",
+          "horse": "no",
+          "name": "Rübezahlstiege",
+          "oneway": "recommended",
+          "path": "climbing_access",
+          "rungs": "yes",
+          "sac_scale": "difficult_alpine_hiking",
+          "safety_rope": "no",
+          "surface": "rock",
+          "via_ferrata": "yes",
+          "via_ferrata_scale": "2",
+          "via_ferrata_set": "no",
+          "width": "0.6",
+          "wikipedia": "de:Rübezahlstiege"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2446241,
+              50.9071481
+            ],
+            [
+              14.2447121,
+              50.9071692
+            ]
+          ]
+        },
+        "id": "way/444421847"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/444421848",
+          "bicycle": "no",
+          "description": "Stiege, die nur im Aufstieg begangen werden sollte",
+          "highway": "steps",
+          "horse": "no",
+          "name": "Rübezahlstiege",
+          "oneway": "recommended",
+          "path": "climbing_access",
+          "rungs": "yes",
+          "sac_scale": "alpine_hiking",
+          "safety_rope": "no",
+          "surface": "rock",
+          "tunnel": "yes",
+          "via_ferrata": "yes",
+          "via_ferrata_scale": "2",
+          "via_ferrata_set": "no",
+          "width": "0.6",
+          "wikipedia": "de:Rübezahlstiege"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2449992,
+              50.9072417
+            ],
+            [
+              14.245028,
+              50.9072515
+            ],
+            [
+              14.2450465,
+              50.907262
+            ]
+          ]
+        },
+        "id": "way/444421848"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/495514705",
+          "highway": "steps",
+          "incline": "down",
+          "step_count": "18"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2596677,
+              50.8962214
+            ],
+            [
+              14.2597932,
+              50.8962022
+            ]
+          ]
+        },
+        "id": "way/495514705"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/506213136",
+          "bicycle": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2051023,
+              50.9125364
+            ],
+            [
+              14.2051164,
+              50.9125017
+            ],
+            [
+              14.2051334,
+              50.9124333
+            ],
+            [
+              14.2052029,
+              50.912418
+            ]
+          ]
+        },
+        "id": "way/506213136"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/521072579",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "lit": "yes",
+          "surface": "paving_stones"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2053942,
+              50.9316498
+            ],
+            [
+              14.205343,
+              50.9316534
+            ]
+          ]
+        },
+        "id": "way/521072579"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/521072581",
+          "handrail": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "lit": "yes",
+          "surface": "paving_stones"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2059983,
+              50.9314496
+            ],
+            [
+              14.2059096,
+              50.9313675
+            ],
+            [
+              14.2057553,
+              50.9312726
+            ]
+          ]
+        },
+        "id": "way/521072581"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/578220870",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2162304,
+              50.9176201
+            ],
+            [
+              14.216323,
+              50.9175493
+            ]
+          ]
+        },
+        "id": "way/578220870"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/623557992",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2056589,
+              50.9119664
+            ],
+            [
+              14.2055731,
+              50.9119939
+            ]
+          ]
+        },
+        "id": "way/623557992"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/626506415",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "down",
+          "ramp": "no",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2287928,
+              50.8984184
+            ],
+            [
+              14.2286548,
+              50.8983607
+            ]
+          ]
+        },
+        "id": "way/626506415"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/626506417",
+          "bicycle": "no",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2284322,
+              50.8982084
+            ],
+            [
+              14.2282699,
+              50.8981323
+            ]
+          ]
+        },
+        "id": "way/626506417"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/675780503",
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "steps",
+          "incline": "down",
+          "name": "Lehnsteig",
+          "sac_scale": "mountain_hiking",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.245036,
+              50.9034514
+            ],
+            [
+              14.2450242,
+              50.9034063
+            ]
+          ]
+        },
+        "id": "way/675780503"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/675782640",
+          "highway": "steps",
+          "incline": "up"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2323835,
+              50.8922714
+            ],
+            [
+              14.2323381,
+              50.8922604
+            ]
+          ]
+        },
+        "id": "way/675782640"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/680503903",
+          "access": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2807471,
+              50.8851802
+            ],
+            [
+              14.2807094,
+              50.8852033
+            ]
+          ]
+        },
+        "id": "way/680503903"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/684451753",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Königsweg",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.260672,
+              50.9143124
+            ],
+            [
+              14.2607307,
+              50.9142909
+            ]
+          ]
+        },
+        "id": "way/684451753"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/718170273",
+          "access": "private",
+          "bicycle": "no",
+          "check_date": "2021-03-16",
+          "description": "Gefahr durch zusammenbrechendes Totholz",
+          "foot": "discouraged",
+          "hazard": "falling_trees",
+          "highway": "steps",
+          "note": "Auf dem Friensteinabstieg besteht durch abgestorbene Bäume und zusammenbrechendes Totholz eine sehr hohe Gefährdung. Deshalb ist dieser Weg gegenwärtig  unpassierbar.\nhttps://www.nationalpark-saechsische-schweiz.de/aktuelles/wegeservice-und-wegeinfo/",
+          "surface": "wood"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2425528,
+              50.9125152
+            ],
+            [
+              14.2426083,
+              50.9125413
+            ],
+            [
+              14.2427921,
+              50.9125653
+            ],
+            [
+              14.2430434,
+              50.9125296
+            ],
+            [
+              14.24311,
+              50.9126189
+            ],
+            [
+              14.2433017,
+              50.9126664
+            ],
+            [
+              14.2435064,
+              50.9128378
+            ],
+            [
+              14.2435639,
+              50.9128095
+            ]
+          ]
+        },
+        "id": "way/718170273"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/736358921",
+          "bicycle": "no",
+          "description": "Stiege, die nur im Aufstieg begangen werden sollte",
+          "highway": "steps",
+          "horse": "no",
+          "name": "Rübezahlstiege",
+          "oneway": "recommended",
+          "path": "climbing_access",
+          "rungs": "yes",
+          "sac_scale": "difficult_alpine_hiking",
+          "safety_rope": "no",
+          "surface": "rock",
+          "via_ferrata": "yes",
+          "via_ferrata_scale": "1",
+          "via_ferrata_set": "no",
+          "width": "0.6",
+          "wikipedia": "de:Rübezahlstiege"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2447121,
+              50.9071692
+            ],
+            [
+              14.2448061,
+              50.9071897
+            ],
+            [
+              14.2448812,
+              50.9071849
+            ],
+            [
+              14.2449335,
+              50.9072027
+            ],
+            [
+              14.2449992,
+              50.9072417
+            ]
+          ]
+        },
+        "id": "way/736358921"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/845004632",
+          "bicycle": "no",
+          "handrail": "yes",
+          "handrail:left": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "ramp": "no",
+          "sac_scale": "hiking"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2265266,
+              50.8967571
+            ],
+            [
+              14.2266641,
+              50.8968631
+            ]
+          ]
+        },
+        "id": "way/845004632"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/847068413",
+          "bicycle": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2065509,
+              50.9059966
+            ],
+            [
+              14.2065509,
+              50.9060172
+            ],
+            [
+              14.206585,
+              50.9060236
+            ],
+            [
+              14.2065018,
+              50.9061017
+            ],
+            [
+              14.2065028,
+              50.9061304
+            ],
+            [
+              14.2066235,
+              50.9061312
+            ],
+            [
+              14.2065183,
+              50.9062115
+            ],
+            [
+              14.2066125,
+              50.9061959
+            ]
+          ]
+        },
+        "id": "way/847068413"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/894606503",
+          "bicycle": "no",
+          "highway": "steps"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2592522,
+              50.9139747
+            ],
+            [
+              14.2590833,
+              50.9138732
+            ],
+            [
+              14.258976,
+              50.9137481
+            ],
+            [
+              14.2590752,
+              50.9137041
+            ],
+            [
+              14.2594246,
+              50.9137475
+            ],
+            [
+              14.2594684,
+              50.9136763
+            ],
+            [
+              14.2595848,
+              50.9136551
+            ],
+            [
+              14.259617,
+              50.9136026
+            ],
+            [
+              14.2595553,
+              50.913584
+            ],
+            [
+              14.2595929,
+              50.9135062
+            ],
+            [
+              14.2594857,
+              50.9134518
+            ],
+            [
+              14.259449,
+              50.9134238
+            ],
+            [
+              14.2594543,
+              50.9133969
+            ]
+          ]
+        },
+        "id": "way/894606503"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/959851238",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Starke Stiege",
+          "note": "Die Starke Stiege ist kein Klettersteig/Via_ferrata im eigentlichen Sinne.",
+          "path": "climbing_access",
+          "rungs": "yes",
+          "sac_scale": "alpine_hiking",
+          "safety_rope": "no",
+          "via_ferrata_scale": "2",
+          "via_ferrata_set": "no"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2271498,
+              50.9069707
+            ],
+            [
+              14.2272115,
+              50.9070026
+            ],
+            [
+              14.2272802,
+              50.9070126
+            ]
+          ]
+        },
+        "id": "way/959851238"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/974913667",
+          "bicycle": "no",
+          "highway": "steps",
+          "lit": "no",
+          "surface": "ground"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2562439,
+              50.9254515
+            ],
+            [
+              14.2562089,
+              50.925444
+            ]
+          ]
+        },
+        "id": "way/974913667"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/974913668",
+          "bicycle": "no",
+          "bridge": "yes",
+          "highway": "steps",
+          "layer": "1",
+          "lit": "no",
+          "surface": "ground"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2562055,
+              50.9254556
+            ],
+            [
+              14.256258,
+              50.9254179
+            ]
+          ]
+        },
+        "id": "way/974913668"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/974913669",
+          "bicycle": "no",
+          "highway": "steps",
+          "layer": "1",
+          "lit": "no",
+          "surface": "ground"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.256272,
+              50.9254078
+            ],
+            [
+              14.256293,
+              50.9254151
+            ]
+          ]
+        },
+        "id": "way/974913669"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/974913670",
+          "bicycle": "no",
+          "highway": "steps",
+          "layer": "1",
+          "lit": "no",
+          "surface": "ground"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.256258,
+              50.9254179
+            ],
+            [
+              14.256272,
+              50.9254078
+            ]
+          ]
+        },
+        "id": "way/974913670"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/984623341",
+          "highway": "steps",
+          "incline": "up",
+          "step_count": "23",
+          "surface": "wood"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2283759,
+              50.9018176
+            ],
+            [
+              14.2283907,
+              50.9018298
+            ],
+            [
+              14.2285218,
+              50.9019384
+            ]
+          ]
+        },
+        "id": "way/984623341"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/984824725",
+          "bicycle": "no",
+          "handrail:left": "yes",
+          "highway": "steps",
+          "incline": "up",
+          "name": "Zurückesteig",
+          "sac_scale": "mountain_hiking",
+          "step_count": "6",
+          "surface": "metal"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.2344788,
+              50.908793
+            ],
+            [
+              14.2344955,
+              50.9087682
+            ]
+          ]
+        },
+        "id": "way/984824725"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "way/984955852",
+          "bicycle": "no",
+          "highway": "steps",
+          "name": "Wurzelweg",
+          "sac_scale": "hiking",
+          "surface": "unpaved"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              14.256065,
+              50.903735
+            ],
+            [
+              14.2550153,
+              50.9035562
+            ]
+          ]
+        },
+        "id": "way/984955852"
+      }
     ]
-}
+  }
