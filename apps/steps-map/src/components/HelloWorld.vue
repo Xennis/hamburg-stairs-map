@@ -1,15 +1,14 @@
 <template>
   <l-map @ready="onReady" style="height: 500px" :zoom="zoom" :center="center">
     <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
-    <l-marker :lat-lng="markerLatLng"></l-marker>
-    <l-geo-json :geojson="geojson" :options="geojsonOptions"></l-geo-json>
+    <l-geo-json :geojson="stepsData" :options="geojsonOptions"></l-geo-json>
   </l-map>
 </template>
 
 <script>
-import {LMap, LTileLayer, LMarker, LGeoJson} from 'vue2-leaflet';
-import { Icon } from 'leaflet';
-import HeiligeStiege from '../assets/heilige-stiege.json'
+import {LMap, LTileLayer, LGeoJson} from 'vue2-leaflet';
+import {Icon} from 'leaflet';
+import StepsHamburg from '../assets/steps-hamburg.json'
 
 delete Icon.Default.prototype._getIconUrl;
 Icon.Default.mergeOptions({
@@ -23,22 +22,19 @@ export default {
   components: {
     LMap,
     LTileLayer,
-    LMarker,
     LGeoJson
   },
   data () {
     return {
-      url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      url: 'https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoieGVubmlzIiwiYSI6ImNrdWxpYmMwNjFtY3gycG15c2htN2gxenoifQ.V2BLrQ8MqJ0E9c7lHIVnug',
       attribution:
-        '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-      zoom: 17,
-      center: [50.909000, 14.237500],
-      markerLatLng: [51.504, -0.159],
+        '&copy; <a href="https://www.mapbox.com/about/maps/" target="_blank">Mapbox</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors | <a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a>',
+      zoom: 12,
+      center: [53.551086, 9.993682],
 
       map: null,
       geojsonOptions: {
         onEachFeature: function onEachFeature(feature, layer) {
-          console.log(feature);
           layer.bindPopup("<h3><a href=\"https://www.openstreetmap.org/" + feature.properties["@id"] + "\" target=\"_blank\">" + feature.properties.name + "</a></h3>" + "<pre>"+JSON.stringify(feature.properties, null, " ")+"</pre>");
         },
         style: function(feature) {
@@ -53,7 +49,7 @@ export default {
     };
   },
   async created () {
-    this.geojson = HeiligeStiege
+    this.stepsData = StepsHamburg
   },
   methods: {
     onReady(mapObject) {
