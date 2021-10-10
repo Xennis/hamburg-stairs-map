@@ -1,4 +1,5 @@
 module.exports = {
+    publicPath: '/steps-map/',
     chainWebpack: config => {
         config
             .plugin('html')
