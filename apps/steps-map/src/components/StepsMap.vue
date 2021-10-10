@@ -1,5 +1,5 @@
 <template>
-  <l-map @ready="onReady" style="height: 500px" :zoom="zoom" :center="center">
+  <l-map @ready="onReady" style="position: absolute; top: 0; bottom: 0; width: 100%;" :zoom="zoom" :center="center">
     <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
     <l-geo-json :geojson="stepsData" :options="geojsonOptions"></l-geo-json>
   </l-map>
@@ -29,13 +29,25 @@ export default {
       url: 'https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoieGVubmlzIiwiYSI6ImNrdWxpYmMwNjFtY3gycG15c2htN2gxenoifQ.V2BLrQ8MqJ0E9c7lHIVnug',
       attribution:
         '&copy; <a href="https://www.mapbox.com/about/maps/" target="_blank">Mapbox</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors | <a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a>',
-      zoom: 12,
+      zoom: 15,
       center: [53.551086, 9.993682],
 
       map: null,
       geojsonOptions: {
         onEachFeature: function onEachFeature(feature, layer) {
-          layer.bindPopup("<h3><a href=\"https://www.openstreetmap.org/" + feature.properties["@id"] + "\" target=\"_blank\">" + feature.properties.name + "</a></h3>" + "<pre>"+JSON.stringify(feature.properties, null, " ")+"</pre>Data: <a href=\"https://www.openstreetmap.org/" + feature.properties["@id"] + "\" target=\"_blank\">OpenStreetMap</a> / <a href=\"https://opendatacommons.org/licenses/odbl/1-0/\" target=\"_blank\">ODbL</a>");
+          var text = '';
+          if (feature.properties.name) {
+            text += '<h3>' + feature.properties.name + '</h3>'
+          }
+          text += '<pre>'
+          for (const [key, value] of Object.entries(feature.properties)) {
+            if (['@id', 'highway'].includes(key)) {
+              continue;
+            }
+            text += `${key}: ${value}\n`;
+          }
+          text += '</pre><p>Data: <a href="https://www.openstreetmap.org/" + feature.properties["@id"] + " target="_blank">OpenStreetMap</a> / <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank">ODbL</a></p>'
+          layer.bindPopup(text);
         },
         style: function(feature) {
           if (feature.properties.wikipedia) {
