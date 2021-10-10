@@ -35,7 +35,7 @@ export default {
       map: null,
       geojsonOptions: {
         onEachFeature: function onEachFeature(feature, layer) {
-          layer.bindPopup("<h3><a href=\"https://www.openstreetmap.org/" + feature.properties["@id"] + "\" target=\"_blank\">" + feature.properties.name + "</a></h3>" + "<pre>"+JSON.stringify(feature.properties, null, " ")+"</pre>");
+          layer.bindPopup("<h3><a href=\"https://www.openstreetmap.org/" + feature.properties["@id"] + "\" target=\"_blank\">" + feature.properties.name + "</a></h3>" + "<pre>"+JSON.stringify(feature.properties, null, " ")+"</pre>Data: <a href=\"https://www.openstreetmap.org/" + feature.properties["@id"] + "\" target=\"_blank\">OpenStreetMap</a> / <a href=\"https://opendatacommons.org/licenses/odbl/1-0/\" target=\"_blank\">ODbL</a>");
         },
         style: function(feature) {
           if (feature.properties.wikipedia) {
