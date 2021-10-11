@@ -1,76 +1,91 @@
 <template>
-  <l-map @ready="onReady" style="position: absolute; top: 0; bottom: 0; width: 100%;" :zoom="zoom" :center="center">
-    <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
-    <l-geo-json :geojson="stepsData" :options="stepsDataOptions"></l-geo-json>
-  </l-map>
+  <div id="map" />
 </template>
 
 <script>
-import {LMap, LTileLayer, LGeoJson} from 'vue2-leaflet';
-import {Icon} from 'leaflet';
-import StepsHamburg from '../assets/steps-hamburg.json'
-
-delete Icon.Default.prototype._getIconUrl;
-Icon.Default.mergeOptions({
-  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-  iconUrl: require('leaflet/dist/images/marker-icon.png'),
-  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
-});
-
+import mapboxgl from "mapbox-gl";
+import StepsHamburg from "../assets/steps-hamburg.json";
 
 export default {
-  components: {
-    LMap,
-    LTileLayer,
-    LGeoJson
-  },
-  data () {
+  data() {
     return {
-      url: 'https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoieGVubmlzIiwiYSI6ImNrdWxpYmMwNjFtY3gycG15c2htN2gxenoifQ.V2BLrQ8MqJ0E9c7lHIVnug',
-      attribution:
-        '&copy; <a href="https://www.mapbox.com/about/maps/" target="_blank">Mapbox</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors | <a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a>',
-      zoom: 15,
-      center: [53.551086, 9.993682],
-      map: null,
-      stepsDataOptions: {
-        onEachFeature: function onEachFeature(feature, layer) {
-          var text = '';
-          if (feature.properties.name) {
-            text += '<h3>' + feature.properties.name + '</h3>'
-          }
-          text += '<pre>'
-          for (const [key, value] of Object.entries(feature.properties)) {
-            if (['@id', 'highway'].includes(key)) {
-              continue;
-            }
-            text += `${key}: ${value}\n`;
-          }
-          text += '</pre><p>Data: <a href="https://www.openstreetmap.org/' + feature.properties["@id"] + '" target="_blank">OpenStreetMap</a> / <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank">ODbL</a></p>'
-          layer.bindPopup(text);
-        },
-        style: function(feature) {
-          if (feature.properties.sac_scale) {
-            return {
-              color: '#F4941B'
-            }
-          }
-        },
-        //filter: function(feature) {
-        //  return feature.properties.handrail == 'no';
-        //},
-      }
+      accessToken:
+        "pk.eyJ1IjoieGVubmlzIiwiYSI6ImNrdWxpYmMwNjFtY3gycG15c2htN2gxenoifQ.V2BLrQ8MqJ0E9c7lHIVnug",
     };
   },
-  async created () {
-    this.stepsData = StepsHamburg
-  },
-  methods: {
-    onReady(mapObject) {
-      this.map = mapObject
-    }
-  },
-}</script>
+  mounted() {
+    mapboxgl.accessToken = this.accessToken;
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+    const map = new mapboxgl.Map({
+      container: "map",
+      style: "mapbox://styles/mapbox/dark-v10",
+      center: [9.993682, 53.551086],
+      zoom: 14,
+    })
+      .addControl(new mapboxgl.NavigationControl({ showCompass: false }))
+      .addControl(new mapboxgl.GeolocateControl());
+
+    map.on("load", () => {
+      map.addSource("steps", {
+        type: "geojson",
+        data: StepsHamburg,
+      });
+      map.addLayer({
+        id: "steps",
+        type: "line",
+        source: "steps",
+        layout: {
+          "line-join": "round",
+          "line-cap": "round",
+        },
+        paint: {
+          "line-color": "#3388ff",
+          "line-width": 4,
+        },
+      });
+
+      // Add pop-up
+      map.on("click", "steps", (e) => {
+        const properties = e.features[0].properties;
+
+var description = "";
+        if (properties.name) {
+          description += "<h3>" + properties.name + "</h3>";
+        }
+        description += "<pre>";
+        for (const [key, value] of Object.entries(properties)) {
+          if (["@id", "highway"].includes(key)) {
+            continue;
+          }
+          description += `${key}: ${value}\n`;
+        }
+        description +=
+          '</pre><p>Data: <a href="https://www.openstreetmap.org/' +
+          properties["@id"] +
+          '" target="_blank">OpenStreetMap</a> / <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank">ODbL</a></p>';
+
+        new mapboxgl.Popup()
+          .setLngLat(e.lngLat)
+          .setHTML(description)
+          .addTo(map);
+      });
+
+      // Cursor when the mouse is over the layer.
+      map.on("mouseenter", "steps", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+      map.on("mouseleave", "steps", () => {
+        map.getCanvas().style.cursor = "";
+      });
+    });
+  },
+};
+</script>
 <style scoped>
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
 </style>
