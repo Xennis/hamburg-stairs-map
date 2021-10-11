@@ -22,8 +22,10 @@ export default {
       center: [9.993682, 53.551086],
       zoom: 14,
     })
-      .addControl(new mapboxgl.NavigationControl({ showCompass: false }))
-      .addControl(new mapboxgl.GeolocateControl());
+      .addControl(new mapboxgl.NavigationControl())
+      .addControl(new mapboxgl.GeolocateControl())
+      .addControl(new mapboxgl.ScaleControl())
+      .addControl(new mapboxgl.FullscreenControl());
 
     map.on("load", () => {
       map.addSource("steps", {
