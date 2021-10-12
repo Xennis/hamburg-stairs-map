@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: '/steps-map/',
+    publicPath: '/hamburg-stairs-map/',
     chainWebpack: config => {
         config
             .plugin('html')
