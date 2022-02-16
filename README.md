@@ -1,9 +1,3 @@
-# steps-map
+# hamburg-stairs-map
 
-### Local development
-
-Install the dependency and start it
-```
-npm install
-npm run server
-```
+https://xennis.github.io/hamburg-stairs-map/
